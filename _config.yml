@@ -7,6 +7,7 @@ url: "" # the base hostname & protocol for your site
 
 researhgate_name: Bjorn_Jostein_Singstad
 github_username: Athlete-ECG
+linkedin_username: bjsingstad
 
 # Build settings
 markdown: kramdown
