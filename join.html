@@ -292,10 +292,13 @@ input[type=text]:placeholder {
     </div>
 
     <!-- Login Form -->
-    <form>
-      <input type="text" id="login" class="fadeIn second" name="login" placeholder="login">
-      <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
-      <input type="submit" class="fadeIn fourth" value="Log In">
+    <form action="https://formspree.io/meqrapng" method="POST">
+     	<input id="e-mail" name="_replyto" placeholder="e-mail" type="text" required="required class="fadeIn second">
+	<input type="hidden" name="_next" value="https://athlete-ecg.tech/index.html"/>
+      	<input type="hidden" name="_subject" value="join the team" />
+	<textarea id="message" name="message" required="required" class="fadeIn third"></textarea>							  
+      
+      <input type="submit" name="submit" class="fadeIn fourth" value="Submit">
     </form>
 
     <!-- Remind Passowrd -->
