@@ -14,10 +14,8 @@ permalink: /join/
 
 
 </head>
-
- 
 <form action="https://formspree.io/meqrapng" method="POST">
-   <div class="form-group">
+ <div class="form-group">
     <label></label> 
     <div class="input-group">
       <div class="input-group-prepend">
@@ -25,25 +23,18 @@ permalink: /join/
           <i class="fa fa-address-card"></i>
         </div>
       </div> 
-      <input id="e-mail" name="_replyto" placeholder="E-mail" type="text" required="required" class="form-control">
+      <input id="e-mail" name="e-mail" placeholder="_replyto" type="text" required="required" class="form-control">
     </div>
   </div>
   <div class="form-group">
-    <label></label> 
-    <div class="input-group">
-      <div class="input-group-prepend">
-        <div class="input-group-text">
-          <i class="fa fa-align-left"></i>
-        </div>
-      </div> 
-      <input id="Message" name="message" placeholder="Write your message here" type="text" required="required" class="form-control">
-    </div>
+    <label for="message">Write your message here</label> 
+    <textarea id="message" name="message" cols="40" rows="5" required="required" class="form-control"></textarea>
   </div> 
   <div class="form-group">
     <button name="submit" type="submit" class="btn btn-primary">Submit</button>
   </div>
 </form>
- 
+   
 </body>
 
 </html> 
