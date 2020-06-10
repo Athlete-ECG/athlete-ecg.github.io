@@ -1,0 +1,5 @@
+User-agent: *
+Disallow:/signup/
+Disallow:/join/
+
+Sitemap: https://athlete-ecg.tech/sitemap.xml
